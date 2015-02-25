@@ -6,7 +6,8 @@ module.exports = function(karma) {
     frameworks: [ 'browserify', 'jasmine' ],
 
     files: [
-      "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js",
+      // "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js",
+      'libs/moment.min.js',
       '__tests__/**/*.js'
     ],
 
